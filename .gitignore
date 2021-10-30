@@ -1,0 +1,4 @@
+*.log
+checkpoint.pth
+.ipynb_checkpoints
+__pycache__

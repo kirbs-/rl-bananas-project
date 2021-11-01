@@ -1,8 +1,6 @@
 ## Algorithm
 
-Agent is implemented as a deep Q-learning (DQN) agent with experience replay. DQN algorithm takes the environment state as a input to a deep neural network and output an approximated Q-value for each action in the action space. DQNs differ from Q-learning 
-
-
+Agent is implemented as a deep Q-learning (DQN) agent with experience replay. DQN algorithm takes the environment state as a input to a deep neural network and outputs an approximated Q-value for each action in the action space. 
 
 The Q-value is approximated with two identical neural networks. Each network contains **two fully connected dense layers with 128 neurons and Relu activations\.** The final dense layer contains 4 neuron representing each of the actions available to the agent. 
 
@@ -10,7 +8,9 @@ The Q-value is approximated with two identical neural networks. Each network con
 
 ## Result
 
-Agent consistently solves the challenge after approximately 700 episodes. ![Agent score](static/model-training.png)
+Agent consistently solves the challenge after approximately 700 episodes. 
+
+![Agent score](static/model-training.png)
 
 
 

@@ -2,8 +2,14 @@
 
 ## How to run this project
 1. Clone this repository `git clone https://github.com/kirbs-/rl-bananas-project`
-2. Install required packages `pip install -r requirements.txt`
-3. Execute `Navigation.ipynb` notebook to train an agent.
+2. Download the environment from one of the links below.  You need only select the environment that matches your operating system:
+      - Linux: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux.zip)
+   - Mac OSX: [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana.app.zip)
+   - Windows (32-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86.zip)
+   - Windows (64-bit): [click here](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Windows_x86_64.zip)
+3. Place the file in the rl-bananas-project GitHub repository and unzip (or decompress) the file. 
+4. Install dependencies with `pip install -r requirements.txt` **Note Python 3.7+ is required.**
+5. Execute `Navigation.ipynb` notebook to train an agent.
 
 ## Environment
 Banana environment conists of blue and yellow bananas randcomly placed on a confined area. The agent's goal is to collect as many yellow bananas as possible while avoiding blue bananas. The agent can take one of 4 actions:
